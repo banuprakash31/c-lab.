@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	printf("\naddition of a+b=%d",5+5);
+	printf("\nsubraction of a-b=%d",5-5);
+	printf("\nmultiplication of a*b=%d",5*5);
+	printf("\ndivision of a/b=%d",5/5);
+	getch();
+}
