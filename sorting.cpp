@@ -2,7 +2,7 @@
 int main(){
 	int num,sum = 0,digit;
 	printf("Enter a 5-digit number:");
-	scanf("%D",&num);
+	scanf("%d",&num);
 	if(num<10000||num>99999){
 	printf("Error: Please enter a valid 5-digit number.\n");
 	return 1;
@@ -17,3 +17,4 @@ int main(){
 	printf("sum of digits:%d\n",sum);
 	return 0;
 }
+
